@@ -2,7 +2,7 @@
 # pylint: disable=broad-exception-raised
 
 import fileinput
-import glob
+import glob 
 import os.path
 from itertools import groupby
 import string
@@ -17,7 +17,7 @@ import string
 # Por ejemplo:
 #   [
 #     ('text0'.txt', 'Analytics is the discovery, inter ...'),
-#     ('text0'.txt', 'in data. Especially valuable in ar...').
+#     ('text0'.txt', 'in data. Especially valuable in ar...'). 
 #     ...
 #     ('text2.txt'. 'hypotheses.')
 #   ]
